@@ -7,7 +7,9 @@
 
 ---
 
-### **Lab 1**
+## **Basic concepts of algorithm theory**
+
+### **Lab 1.** The concept of computational complexity of algorithms, the main classes of algorithms
 
 **📅 Date:** 03.02.2022
 
@@ -19,9 +21,7 @@
 The coordinates of three points of the plane are given. Check if they form a right triangle.
 </details>
 
----
-
-### **Lab 2**
+### **Lab 2.** Research of recursive algorithms
 
 **📅 Date:** 19.02.2022
 
