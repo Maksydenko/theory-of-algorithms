@@ -13,7 +13,7 @@
 
 **📅 Date:** 03.02.2022
 
-**📁 Project:** [link](lab_1/main.cpp)
+**📁 Project:** [link](lab_01/main.cpp)
 
 <details>
 <summary><b>📋 Specification:</b></summary>
@@ -25,7 +25,7 @@ The coordinates of three points of the plane are given. Check if they form a rig
 
 **📅 Date:** 19.02.2022
 
-**📁 Project:** [link](lab_2)
+**📁 Project:** [link](lab_02)
 
 <details>
 <summary><b>📋 Specification:</b></summary>
