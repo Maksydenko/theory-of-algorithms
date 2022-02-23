@@ -41,4 +41,5 @@ Calculate the value of y by decomposing the function ƒ(x) into a Taylor series.
         <td>(x+3) / sin(x)</td>
         <td>sin(x)</td>
     </td>
+</table>
 </details>
