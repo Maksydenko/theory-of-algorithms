@@ -32,18 +32,7 @@ The coordinates of three points of the plane are given. Check if they form a rig
 
 Calculate the value of y by decomposing the function ƒ(x) into a Taylor series. Develop programs according to the algorithm using a recursive function and without using a recursive function.
 
-<!-- <table border="1">
-    <tr align="center">
-        <td><b>y</b></td>
-        <td><b>ƒ(x)</b</td>
-    </tr>
-    <tr align="center">
-        <td>(x+3) / sin(x)</td>
-        <td>sin(x)</td>
-    </tr>
-</table> -->
-
-|y|f(x)|
+|y|ƒ(x)|
 |:------------:|:----:|
 |(x+3) / sin(x)|sin(x)|
 
