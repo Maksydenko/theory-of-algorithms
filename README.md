@@ -44,7 +44,7 @@ Calculate the value of y by decomposing the function ƒ(x) into a Taylor series.
 </table> -->
 
 |y|f(x)|
-|:--:|:--:|
-|(x+3)/sin(x)|sin(x)|
+|:------------:|:----:|
+|(x+3) / sin(x)|sin(x)|
 
 </details>
