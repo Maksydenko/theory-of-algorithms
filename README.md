@@ -40,6 +40,6 @@ Calculate the value of y by decomposing the function ƒ(x) into a Taylor series.
     <tr align="center">
         <td>(x+3) / sin(x)</td>
         <td>sin(x)</td>
-    </td>
+    </tr>
 </table>
 </details>
