@@ -34,7 +34,30 @@ The coordinates of three points of the plane are given. Check if they form a rig
 Calculate the value of y by decomposing the function ƒ(x) into a Taylor series. Develop programs according to the algorithm using a recursive function and without using a recursive function.
 
 |y|ƒ(x)|
-|:------------:|:----:|
+|------------|----|
 |(x+3) / sin(x)|sin(x)|
 
 </details>
+
+---
+
+## **Search algorithms**
+
+### **Lab 3.** Research of search algorithms
+
+**📅 Date:** 21.04.2022
+
+**📁 Project:** [link](lab_03/main.cpp)
+
+<details>
+<summary><b>📋 Specification:</b></summary>
+
+1. For these tables to implement the algorithms of the gun by these methods.
+
+2. Determine the number of comparisons when performing different algorithms.
+
+    Note: Input arrays of integers contain 500 elements with random numbers with values from 0 to N - 1. N = 1000.
+
+|The purpose of the search|
+|---|
+|Number of elements from 0 to N - 1 in the array B. Search algorithms: linear, binary|
