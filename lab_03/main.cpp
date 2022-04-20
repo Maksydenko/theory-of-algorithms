@@ -1,8 +1,10 @@
 #include <iostream>
 using namespace std;
 
+int num_comparisons = 0;
 int lineSearch(int arr[], int size, int key) {
 	for (int i = 0; i < size; i++) {
+		num_comparisons++;
 		if (arr[i] == key)
 			return i;
 	}
@@ -12,6 +14,7 @@ int biSearch(int arr[], int L, int R, int key) {
 	int mid;
 	do {
 		mid = L + (R - L) / 2;
+		num_comparisons++;
 		if (key < arr[mid])
 			R = --mid;
 		else {
@@ -49,15 +52,17 @@ int main() {
 		if (0 <= b <= 999)
 			if (lineSearch(B, number, b) >= 0)
 				lnum++;
-				cout << b << " ";
+		cout << b << " ";
 	}
-	cout << endl << "Number of elements from 0 to 999 in array B (linear search): " << lnum << endl;
+	cout << endl << "Number of elements from 0 to 999 in array B (linear search): " << lnum;
+	cout << endl << "Number of comparisons(linear search): " << num_comparisons << endl;
 	cout << endl << "Elements 0 to 999 in array B (binary search):" << endl;
 	for (int b : B) {
 		if (0 <= b <= 999)
 			if (biSearch(B, 0, number - 1, b) >= 0)
 				bnum++;
-				cout << b << " ";
+		cout << b << " ";
 	}
 	cout << endl << "Number of elements from 0 to 999 in array B (binary search): " << bnum;
+	cout << endl << "Number of comparisons(linear search): " << num_comparisons;
 }
