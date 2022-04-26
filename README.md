@@ -61,3 +61,36 @@ Calculate the value of y by decomposing the function ƒ(x) into a Taylor series.
 |The purpose of the search|
 |---|
 |Number of elements from 0 to N - 1 in the array B. Search algorithms: linear, binary|
+</details>
+
+---
+
+## **Sorting algorithms**
+
+### **Lab 4.** Sorting algorithms
+
+**📅 Date:** 27.04.2022
+
+**📁 Project:** [link](lab_04/main.cpp)
+
+<details>
+<summary><b>📋 Specification:</b></summary>
+
+1. Generate an array of dimension 1000 elements:
+    <ol type="a">
+        <li>sorted by ascending;</li>
+        <li>with random elements from 0 to 1000;</li>
+        <li>sorted by order.</li>
+    </ol>
+
+2. For the data of table 5.2 to implement algorithms of sorting in ascending order,
+receiving the following variables:
+    <ol type="a">
+        <li>number of comparisons;</li>
+        <li>number of exchanges.</li>
+    </ol>
+3. The results of the experiment are presented in the form of a table
+
+|Method 1|Method 2|Method 3|
+|---|---|---|
+|"Bubbles" method|Sort by selection|Shell's method|
