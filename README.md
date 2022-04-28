@@ -63,6 +63,19 @@ Calculate the value of y by decomposing the function ƒ(x) into a Taylor series.
 |Number of elements from 0 to N - 1 in the array B. Search algorithms: linear, binary|
 </details>
 
+### **Test work 2. Cycles and arrays**
+
+**📅 Date:** 21.04.2022
+
+**📁 Project:** [link](lab_03/main.cpp)
+
+<details>
+<summary><b>📋 Specification:</b></summary>
+
+1. Write a program that does the following: the user enters his year of birth and the program displays the word "Hello" as many times as he is old.
+2. Write a program that generates and displays an array of 10 random numbers in the range -100 to 100, displays the index of the third negative element.
+</details>
+
 ---
 
 ## **Sorting algorithms**
