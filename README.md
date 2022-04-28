@@ -63,7 +63,7 @@ Calculate the value of y by decomposing the function ƒ(x) into a Taylor series.
 |Number of elements from 0 to N - 1 in the array B. Search algorithms: linear, binary|
 </details>
 
-### **Test work 2. Cycles and arrays**
+### **Control 2. Cycles and arrays**
 
 **📅 Date:** 21.04.2022
 
