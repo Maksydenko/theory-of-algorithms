@@ -67,7 +67,7 @@ Calculate the value of y by decomposing the function ƒ(x) into a Taylor series.
 
 **📅 Date:** 21.04.2022
 
-**📁 Project:** [link](lab_03/main.cpp)
+**📁 Project:** [link](control_02/main.cpp)
 
 <details>
 <summary><b>📋 Specification:</b></summary>
