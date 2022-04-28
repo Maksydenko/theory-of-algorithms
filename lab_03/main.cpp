@@ -2,6 +2,7 @@
 using namespace std;
 
 int num_comparisons = 0;
+
 int lineSearch(int arr[], int size, int key) {
 	for (int i = 0; i < size; i++) {
 		num_comparisons++;
@@ -11,6 +12,7 @@ int lineSearch(int arr[], int size, int key) {
 	}
 	return -1;
 }
+
 int biSearch(int arr[], int L, int R, int key) {
 	int mid;
 
