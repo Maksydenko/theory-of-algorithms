@@ -98,7 +98,6 @@ int main()
 
 	for (int a : array_01)
 		cout << a << " ";
-
 	cout <<endl<< "Array 2:" << endl;
 
 	for (int a : array_02)
