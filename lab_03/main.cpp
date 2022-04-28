@@ -46,9 +46,8 @@ int main() {
 	int lnum = 0;
 	int bnum = 0;
 
-	for (int i = 0; i < number; i++) {
+	for (int i = 0; i < number; i++)
 		B[i] = rand() % 1000;
-	}
 	mySort(B, number);
 	cout << "Array B:" << endl;
 
