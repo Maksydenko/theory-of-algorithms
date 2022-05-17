@@ -4,7 +4,6 @@ using namespace std;
 int factorial(int n) {
     if (n < 2)
         return 1;
-
     return n * factorial(n - 1);
 }
 
@@ -15,17 +14,13 @@ double sinWithRec(double value, int accuracy = 0) {
         while (value > circleValue) {
             value -= circleValue;
         }
-        
         while (value < -circleValue) {
             value += circleValue;
         }
-
     }
-    
     if (accuracy == 6)
         return 0;
     double res = pow(-1, accuracy) * pow(value, 2 * accuracy + 1) / factorial(2 * accuracy + 1);
-
     return res + sinWithRec(value, accuracy + 1);
 }
 
