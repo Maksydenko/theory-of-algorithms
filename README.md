@@ -36,7 +36,24 @@ Calculate the value of y by decomposing the function ƒ(x) into a Taylor series.
 |y|ƒ(x)|
 |------------|----|
 |(x+3) / sin(x)|sin(x)|
+</details>
 
+### **Control 1**
+
+**📅 Date:** 18.05.2022
+
+**📁 Project:** [link](control_01/main.cpp)
+
+<details>
+<summary><b>📋 Specification:</b></summary>
+
+Task:
+
+Calculate the expression:
+
+w = |cos(x) - cos(y)<sup>(1 + 2sin<sup>2</sup>(y))</sup>| * (1 + z + z<sup>2</sup> / 2 + z<sup>4</sup> / 4
+
+if x = 0.4 * 10<sup>4</sup>, y = -0.875, z = -0.475 * 10<sup>-3</sup>, w = 1.9873)
 </details>
 
 ---
@@ -107,3 +124,4 @@ receiving the following variables:
 |Method 1|Method 2|Method 3|
 |---|---|---|
 |"Bubbles" method|Sort by selection|Shell's method|
+</details>
