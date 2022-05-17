@@ -8,7 +8,6 @@ int factorial(int n) {
         fact *= n;
         n--;
     }
-
     return fact;
 }
 
@@ -20,17 +19,14 @@ double sinWithoutRec(double value, int accuracy = 0) {
         while (value > circleValue) {
             value -= circleValue;
         }
-
         while (value < -circleValue) {
             value += circleValue;
         }
     }
-
     while (accuracy <= 6) {
         sinx += pow(-1, accuracy) * pow(value, 2 * accuracy + 1) / factorial(2 * accuracy + 1);
         accuracy++;
     }
-
     return sinx;
 }
 
