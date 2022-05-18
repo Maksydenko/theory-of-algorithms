@@ -47,8 +47,6 @@ Calculate the value of y by decomposing the function ƒ(x) into a Taylor series.
 <details>
 <summary><b>📋 Specification:</b></summary>
 
-Task:
-
 Calculate the expression:
 
 w = |cos(x) - cos(y)<sup>(1 + 2sin<sup>2</sup>(y))</sup>| * (1 + z + z<sup>2</sup> / 2 + z<sup>4</sup> / 4
@@ -113,7 +111,7 @@ if x = 0.4 * 10<sup>4</sup>, y = -0.875, z = -0.475 * 10<sup>-3</sup>, w = 1.987
         <li>sorted by order.</li>
     </ol>
 
-2. For the data of table 5.2 to implement algorithms of sorting in ascending order,
+2. For the data of table to implement algorithms of sorting in ascending order,
 receiving the following variables:
     <ol type="a">
         <li>number of comparisons;</li>
