@@ -108,7 +108,7 @@ if x = 0.4 * 10<sup>4</sup>, y = -0.875, z = -0.475 * 10<sup>-3</sup>, w = 1.987
     <ol type="a">
         <li>sorted by ascending;</li>
         <li>with random elements from 0 to 1000;</li>
-        <li>sorted by order.</li>
+        <li>sorted in descending order.</li>
     </ol>
 
 2. For the data of table to implement algorithms of sorting in ascending order,
