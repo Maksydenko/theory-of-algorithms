@@ -4,10 +4,12 @@ using namespace std;
 int main()
 {
     // Task 1
+
     for (int i = 0; i < 10; i++)
         cout << pow(i, 2) << endl;
 
     // Task 2
+
     const int size = 10;
     int arr[size];
     int num_negative = 0;
