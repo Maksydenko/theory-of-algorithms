@@ -20,9 +20,10 @@ void generateArray(int arr_01[], int arr_02[], int arr_03[])
 
 void bubbleSort(int arr[], int num)
 {
-	int flag = 1, i = 0;
+	int flag;
+	i = 0;
 
-	while (flag)
+	do
 	{
 		flag = 0;
 
@@ -38,7 +39,7 @@ void bubbleSort(int arr[], int num)
 			}
 		}
 		i++;
-	};
+	} while (flag);
 }
 
 void selectionSort(int arr[], int num)
@@ -50,7 +51,6 @@ void selectionSort(int arr[], int num)
 		for (j = i + 1; j < num; j++)
 		{
 			num_comparisons++;
-
 			if (arr[min] > arr[j])
 				min = j;
 		}
