@@ -71,7 +71,7 @@ int sortShell(int arr[], int num)
 			num_comparisons++;
 			j = i;
 
-			while (j >= 0 && arr[j] > arr[j + step])
+			while (j >= 0 and arr[j] > arr[j + step])
 			{
 				num_permutations++;
 				int temp = arr[j];
