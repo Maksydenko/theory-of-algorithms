@@ -47,7 +47,8 @@ void mySort(int arr[], int number)
 int main()
 {
 	const int number = 500;
-	int B[number], lnum = 0, bnum = 0;
+	int B[number];
+	int lnum = 0, bnum = 0;
 
 	for (int i = 0; i < number; i++)
 		B[i] = rand() % 1000;
