@@ -1,8 +1,7 @@
 ﻿#include <iostream>
 using namespace std;
 
-int main()
-{
+int main() {
     double x1 = 0;
     double y1 = 0;
     double x2 = 0;
