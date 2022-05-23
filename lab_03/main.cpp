@@ -3,26 +3,29 @@ using namespace std;
 
 int num_comparisons = 0;
 
-int lineSearch(int arr[], int size, int key) {
-	for (int i = 0; i < size; i++) {
+int lineSearch(int arr[], int size, int key)
+{
+	for (int i = 0; i < size; i++)
+	{
 		num_comparisons++;
-
 		if (arr[i] == key)
 			return i;
 	}
 	return -1;
 }
 
-int biSearch(int arr[], int L, int R, int key) {
+int biSearch(int arr[], int L, int R, int key)
+{
 	int mid;
 
-	do {
+	while (1)
+	{
 		mid = L + (R - L) / 2;
 		num_comparisons++;
-
 		if (key < arr[mid])
 			R = --mid;
-		else {
+		else
+		{
 			if (key > arr[mid])
 				L = ++mid;
 			else
@@ -30,21 +33,21 @@ int biSearch(int arr[], int L, int R, int key) {
 		}
 		if (L > R)
 			return -1;
-	} while (1);
+	}
 }
 
-void mySort(int arr[], int number) {
+void mySort(int arr[], int number)
+{
 	for (int i = 0; i < number - 1; i++)
 		for (int j = i + 1; j < number; j++)
 			if (arr[i] > arr[j])
 				swap(arr[i], arr[j]);
 }
 
-int main() {
+int main()
+{
 	const int number = 500;
-	int B[number];
-	int lnum = 0;
-	int bnum = 0;
+	int B[number], lnum = 0, bnum = 0;
 
 	for (int i = 0; i < number; i++)
 		B[i] = rand() % 1000;
@@ -71,7 +74,6 @@ int main() {
 				bnum++;
 		cout << b << " ";
 	}
-
 	cout << endl << "Number of elements from 0 to 999 in array B (binary search): " << bnum;
 	cout << endl << "Number of comparisons(linear search): " << num_comparisons;
 }
