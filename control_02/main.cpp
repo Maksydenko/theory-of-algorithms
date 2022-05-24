@@ -23,5 +23,5 @@ int main()
         if (a < 0)
             num_negative++;
     }
-    cout << endl << "The number of negative numbers in the array: " << num_negative;
+    cout << "\nThe number of negative numbers in the array: " << num_negative;
 }
