@@ -124,6 +124,8 @@ receiving the following variables:
 |"Bubbles" method|Sort by selection|Shell's method|
 </details>
 
+---
+
 ## **Dynamic data structures. Linear lists**
 
 ### **Practice.** Implement stack and queue based on linear list
