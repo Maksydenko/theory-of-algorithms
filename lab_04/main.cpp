@@ -91,62 +91,62 @@ int main()
 	int array_01[num], array_02[num], array_03[num];
 	generateArray(array_01, array_02, array_03);
 
-	cout << "Array 1:" << endl;
+	cout << "Array 1:\n";
 
 	for (int a : array_01)
 		cout << a << " ";
 
-	cout << endl << "Array 2:" << endl;
+	cout << "\nArray 2:\n";
 
 	for (int a : array_02)
 		cout << a << " ";
 
-	cout << endl << "Array 3:" << endl;
+	cout << "\nArray 3:\n";
 
 	for (int a : array_03)
 		cout << a << " ";
 
-	cout << endl << "Bubble sort:" << endl;
+	cout << "\nBubble sort:";
 
 	num_comparisons = 0, num_permutations = 0;
 	bubbleSort(array_01, num);
-	cout << "Best: number of comparisons: " << num_comparisons << "; number of permutations: " << num_permutations << endl;
+	cout << "\nBest: number of comparisons: " << num_comparisons << "; number of permutations: " << num_permutations;
 
 	num_comparisons = 0, num_permutations = 0;
 	bubbleSort(array_02, num);
-	cout << "Average: number of comparisons: " << num_comparisons << "; number of permutations: " << num_permutations << endl;
+	cout << "\nAverage: number of comparisons: " << num_comparisons << "; number of permutations: " << num_permutations;
 
 	num_comparisons = 0, num_permutations = 0;
 	bubbleSort(array_03, num);
-	cout << "Worst: number of comparisons: " << num_comparisons << "; number of permutations: " << num_permutations << endl;
+	cout << "\nWorst: number of comparisons: " << num_comparisons << "; number of permutations: " << num_permutations;
 
 	generateArray(array_01, array_02, array_03);
-	cout << endl << "Selection sort:" << endl;
+	cout << "\nSelection sort:";
 
 	num_comparisons = 0, num_permutations = 0;
 	selectionSort(array_01, num);
-	cout << "Best: number of comparisons: " << num_comparisons << "; number of permutations: " << num_permutations << endl;
+	cout << "\nBest: number of comparisons: " << num_comparisons << "; number of permutations: " << num_permutations;
 
 	num_comparisons = 0, num_permutations = 0;
 	selectionSort(array_02, num);
-	cout << "Average: number of comparisons: " << num_comparisons << "; number of permutations: " << num_permutations << endl;
+	cout << "\nAverage: number of comparisons: " << num_comparisons << "; number of permutations: " << num_permutations;
 
 	num_comparisons = 0, num_permutations = 0;
 	selectionSort(array_03, num);
-	cout << "Worst: number of comparisons: " << num_comparisons << "; number of permutations: " << num_permutations << endl;
+	cout << "\nWorst: number of comparisons: " << num_comparisons << "; number of permutations: " << num_permutations;
 
 	generateArray(array_01, array_02, array_03);
-	cout << endl << "Shell sort:" << endl;
+	cout << "\nShell sort:";
 
 	num_comparisons = 0, num_permutations = 0;
 	sortShell(array_01, num);
-	cout << "Best: number of comparisons: " << num_comparisons << "; number of permutations: " << num_permutations << endl;
+	cout << "\nBest: number of comparisons: " << num_comparisons << "; number of permutations: " << num_permutations;
 
 	num_comparisons = 0, num_permutations = 0;
 	sortShell(array_02, num);
-	cout << "Average: number of comparisons: " << num_comparisons << "; number of permutations: " << num_permutations << endl;
+	cout << "\nAverage: number of comparisons: " << num_comparisons << "; number of permutations: " << num_permutations;
 
 	num_comparisons = 0, num_permutations = 0;
 	sortShell(array_03, num);
-	cout << "Worst: number of comparisons: " << num_comparisons << "; number of permutations: " << num_permutations << endl;
+	cout << "\nWorst: number of comparisons: " << num_comparisons << "; number of permutations: " << num_permutations;
 }
