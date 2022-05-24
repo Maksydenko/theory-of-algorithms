@@ -123,3 +123,21 @@ receiving the following variables:
 |---|---|---|
 |"Bubbles" method|Sort by selection|Shell's method|
 </details>
+
+## **Dynamic data structures. Linear lists**
+
+### **Practice.** Implement stack and queue based on linear list
+
+**📅 Date:** 24.05.2022
+
+**📁 Project:** [link](practice)
+
+<details>
+<summary><b>📋 Specification:</b></summary>
+
+Create your own stack and queue and fill them with records according to the table and display.
+
+|Type of records|Number of records|
+|---|---|
+|Warehouse (goods and their value)|10|
+</details>
