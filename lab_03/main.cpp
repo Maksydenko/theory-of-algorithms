@@ -15,7 +15,7 @@ int lineSearch(int arr[], int size, int key) {
 int biSearch(int arr[], int L, int R, int key) {
 	int mid;
 
-	while (1) {
+	while (true) {
 		mid = L + (R - L) / 2;
 		num_comparisons++;
 		if (key < arr[mid])
