@@ -16,12 +16,10 @@ double sinWithoutRec(double value, int accuracy = 0) {
     double sinx = 0;
 
     if (value > circleValue || value < -circleValue) {
-        while (value > circleValue) {
+        while (value > circleValue)
             value -= circleValue;
-        }
-        while (value < -circleValue) {
+        while (value < -circleValue)
             value += circleValue;
-        }
     }
     while (accuracy <= 6) {
         sinx += pow(-1, accuracy) * pow(value, 2 * accuracy + 1) / factorial(2 * accuracy + 1);
