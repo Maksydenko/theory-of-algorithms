@@ -11,12 +11,10 @@ double sinWithRec(double value, int accuracy = 0) {
     double const circleValue = 6.28319;
 
     if (value > circleValue || value < -circleValue) {
-        while (value > circleValue) {
+        while (value > circleValue)
             value -= circleValue;
-        }
-        while (value < -circleValue) {
+        while (value < -circleValue)
             value += circleValue;
-        }
     }
     if (accuracy == 6)
         return 0;
