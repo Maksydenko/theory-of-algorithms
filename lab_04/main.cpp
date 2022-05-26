@@ -5,35 +5,29 @@ const int num = 1000;
 int num_comparisons;
 int num_permutations;
 
-void generateArray(int arr_01[], int arr_02[], int arr_03[])
-{
+void generateArray(int arr_01[], int arr_02[], int arr_03[]) {
 	arr_01[0] = 0;
 	arr_02[0] = rand() % 1000;
 	arr_03[0] = 9999;
 
-	for (int i = 1; i < num; i++)
-	{
+	for (int i = 1; i < num; i++) {
 		arr_01[i] = arr_01[i - 1] + rand() % 10;
 		arr_02[i] = rand() % 1000;
 		arr_03[i] = arr_03[i - 1] - rand() % 5;
 	}
 }
 
-void bubbleSort(int arr[], int num)
-{
+void bubbleSort(int arr[], int num) {
 	int flag;
 	int i = 0;
 
-	do
-	{
+	do {
 		flag = 0;
 
-		for (int j = num - 2; j >= i; j--)
-		{
+		for (int j = num - 2; j >= i; j--) {
 			num_comparisons++;
 
-			if (arr[j] > arr[j + 1])
-			{
+			if (arr[j] > arr[j + 1]) {
 				num_permutations++;
 				swap(arr[j], arr[j + 1]);
 				flag = 1;
@@ -43,14 +37,11 @@ void bubbleSort(int arr[], int num)
 	} while (flag);
 }
 
-void selectionSort(int arr[], int num)
-{
-	for (int i = 0; i < num - 1; i++)
-	{
+void selectionSort(int arr[], int num) {
+	for (int i = 0; i < num - 1; i++) {
 		int min = i;
 
-		for (int j = i + 1; j < num; j++)
-		{
+		for (int j = i + 1; j < num; j++) {
 			num_comparisons++;
 			if (arr[min] > arr[j])
 				min = j;
@@ -60,20 +51,16 @@ void selectionSort(int arr[], int num)
 	}
 }
 
-int sortShell(int arr[], int num)
-{
+int sortShell(int arr[], int num) {
 	const int size = num;
 	int step = size / 2;
 
-	while (step > 0)
-	{
-		for (int i = 0; i < (size - step); i++)
-		{
+	while (step > 0) {
+		for (int i = 0; i < (size - step); i++)	{
 			num_comparisons++;
 			int j = i;
 
-			while (j >= 0 and arr[j] > arr[j + step])
-			{
+			while (j >= 0 and arr[j] > arr[j + step]) {
 				num_permutations++;
 				int temp = arr[j];
 				arr[j] = arr[j + step];
@@ -86,8 +73,7 @@ int sortShell(int arr[], int num)
 	return 0;
 }
 
-int main()
-{
+int main() {
 	int array_01[num], array_02[num], array_03[num];
 	generateArray(array_01, array_02, array_03);
 
