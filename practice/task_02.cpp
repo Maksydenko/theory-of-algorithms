@@ -1,8 +1,7 @@
 #include <iostream>
 using namespace std;
 
-struct Node
-{
+struct Node {
 	string product;
 	double price;
 	Node* p;
@@ -11,8 +10,7 @@ struct Node
 Node* add(Node** top, int d, string product, double price);
 Node* del(Node** top);
 
-Node* add(Node** pend, int d, string product, double price)
-{
+Node* add(Node** pend, int d, string product, double price) {
 	Node* pv = new Node;
 	pv->product = product;
 	pv->price = price;
@@ -31,8 +29,7 @@ Node* del(Node** pbeg) {
 	return temp;
 }
 
-int main()
-{
+int main() {
 	string products[10]{ "Oranges", "Lemons", "Melons", "Apples", "Tomatoes", "Carrots", "Strawberries", "Cucumbers", "Cabbage", "Kiwi" };
 	double prices[10]{ 1.5, 1, 1, 0.5, 3, 1, 7, 2, 1, 3 };
 	Node* pend = NULL;
@@ -40,8 +37,7 @@ int main()
 	cout << "The client buys products of 2 kilograms. The cashier scans them:\n";
 	cout << pbeg->product << " which costs " << pbeg->price << "$/kg\n";
 
-	for (int i = 1; i < 6; i++)
-	{
+	for (int i = 1; i < 6; i++)	{
 		cout << products[i] << " which costs " << prices[i] << "$/kg\n";
 		add(&pend, i, products[i], prices[i]);
 	}
@@ -49,8 +45,7 @@ int main()
 	Node* pv = pbeg;
 	double sum;
 
-	while (pv)
-	{
+	while (pv) {
 		double paid = pv->price * 2;
 		sum = sum + paid;
 		cout << pv->product << ": " << paid << "$\n";
