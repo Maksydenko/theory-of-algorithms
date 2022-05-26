@@ -1,8 +1,7 @@
 ﻿#include <iostream>
 using namespace std;
 
-int main()
-{
+int main() {
     // Task 1
 
     for (int i = 0; i < 10; i++)
@@ -17,8 +16,7 @@ int main()
     for (int i = 0; i < size; i++)
         arr[i] = rand() % 200 - 100;
 
-    for (int a : arr)
-    {
+    for (int a : arr) {
         cout << a << " ";
         if (a < 0)
             num_negative++;
