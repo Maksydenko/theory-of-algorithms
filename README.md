@@ -14,7 +14,7 @@ The aim of the course is to form the student's knowledge about the variety of al
 
 **📅 Date:** 03.02.2022
 
-**📁 Project:** [link](lab_01/main.cpp)
+**📁 Project:** [link](lab-01/main.cpp)
 
 <details>
 <summary><b>📋 Specification:</b></summary>
@@ -26,7 +26,7 @@ The coordinates of three points of the plane are given. Check if they form a rig
 
 **📅 Date:** 19.02.2022
 
-**📁 Project:** [link](lab_02)
+**📁 Project:** [link](lab-02)
 
 <details>
 <summary><b>📋 Specification:</b></summary>
@@ -42,7 +42,7 @@ Calculate the value of y by decomposing the function ƒ(x) into a Taylor series.
 
 **📅 Date:** 18.05.2022
 
-**📁 Project:** [link](control_01/main.cpp)
+**📁 Project:** [link](control-01/main.cpp)
 
 <details>
 <summary><b>📋 Specification:</b></summary>
@@ -62,7 +62,7 @@ if x = 0.4 * 10<sup>4</sup>, y = -0.875, z = -0.475 * 10<sup>-3</sup>, w = 1.987
 
 **📅 Date:** 21.04.2022
 
-**📁 Project:** [link](lab_03/main.cpp)
+**📁 Project:** [link](lab-03/main.cpp)
 
 <details>
 <summary><b>📋 Specification:</b></summary>
@@ -82,7 +82,7 @@ if x = 0.4 * 10<sup>4</sup>, y = -0.875, z = -0.475 * 10<sup>-3</sup>, w = 1.987
 
 **📅 Date:** 29.04.2022
 
-**📁 Project:** [link](control_02/main.cpp)
+**📁 Project:** [link](control-02/main.cpp)
 
 <details>
 <summary><b>📋 Specification:</b></summary>
@@ -99,7 +99,7 @@ if x = 0.4 * 10<sup>4</sup>, y = -0.875, z = -0.475 * 10<sup>-3</sup>, w = 1.987
 
 **📅 Date:** 27.04.2022
 
-**📁 Project:** [link](lab_04/main.cpp)
+**📁 Project:** [link](lab-04/main.cpp)
 
 <details>
 <summary><b>📋 Specification:</b></summary>
