@@ -1,6 +1,6 @@
 # **Theory of Algorithms**
 
-<img src="images/c.gif" height="150" alt="C"><img src="images/plus.gif" height="150" alt="C"><img src="images/plus.gif" height="150" alt="C">
+<img src="img/c.gif" height="150" alt="C"><img src="images/plus.gif" height="150" alt="C"><img src="images/plus.gif" height="150" alt="C">
 
 ### **Short annotation to the course:**
     
@@ -33,9 +33,9 @@ The coordinates of three points of the plane are given. Check if they form a rig
 
 Calculate the value of y by decomposing the function ƒ(x) into a Taylor series. Develop programs according to the algorithm using a recursive function and without using a recursive function.
 
-|y|ƒ(x)|
-|------------|----|
-|(x+3) / sin(x)|sin(x)|
+| y              | ƒ(x)   |
+| -------------- | ------ |
+| (x+3) / sin(x) | sin(x) |
 </details>
 
 ### **Control 1**
@@ -73,9 +73,9 @@ if x = 0.4 * 10<sup>4</sup>, y = -0.875, z = -0.475 * 10<sup>-3</sup>, w = 1.987
 
     Note: Input arrays of integers contain 500 elements with random numbers with values from 0 to N - 1. N = 1000.
 
-|The purpose of the search|
-|---|
-|Number of elements from 0 to N - 1 in the array B. Search algorithms: linear, binary|
+| The purpose of the search                                                            |
+| ------------------------------------------------------------------------------------ |
+| Number of elements from 0 to N - 1 in the array B. Search algorithms: linear, binary |
 </details>
 
 ### **Control 2. Cycles and arrays**
@@ -119,9 +119,9 @@ receiving the following variables:
     </ol>
 3. The results of the experiment are presented in the form of a table.
 
-|Method 1|Method 2|Method 3|
-|---|---|---|
-|"Bubbles" method|Sort by selection|Shell's method|
+| Method 1         | Method 2          | Method 3       |
+| ---------------- | ----------------- | -------------- |
+| "Bubbles" method | Sort by selection | Shell's method |
 </details>
 
 ---
@@ -139,7 +139,7 @@ receiving the following variables:
 
 Create your own stack and queue and fill them with records according to the table and display.
 
-|Type of records|Number of records|
-|---|---|
-|Warehouse (goods and their value)|10|
+| Type of records                   | Number of records |
+| --------------------------------- | ----------------- |
+| Warehouse (goods and their value) | 10                |
 </details>
