@@ -1,6 +1,6 @@
 # **Theory of Algorithms**
 
-<img src="img/c.gif" height="150" alt="C"><img src="images/plus.gif" height="150" alt="+"><img src="images/plus.gif" height="150" alt="+">
+<img src="img/c.gif" height="150" alt="C"><img src="img/plus.gif" height="150" alt="+"><img src="img/plus.gif" height="150" alt="+">
 
 ### **Short annotation to the course:**
     
