@@ -117,6 +117,7 @@ receiving the following variables:
         <li>number of comparisons;</li>
         <li>number of exchanges.</li>
     </ol>
+
 3. The results of the experiment are presented in the form of a table.
 
 | Method 1         | Method 2          | Method 3       |
