@@ -18,7 +18,7 @@ The purpose of the course is to form the student's knowledge about the variety o
 
 <details>
 <summary><b>📋 Specification:</b></summary>
-The coordinates of three points of the plane are given. Check if they form a right triangle.
+The coordinates of three points of the plane are given. Check if they form a new triangle.
 </details>
 
 ### **Lab 2.** Research of recursive algorithms
@@ -139,7 +139,7 @@ Note: Input arrays of integers contain 500 elements with random numbers with val
 <details>
 <summary><b>📋 Specification:</b></summary>
 
-Create your own stack and queue and fill them with records according to the table and display.
+Create your own stack and queue and fill them with any entries according to the option and display them on the screen.
 
 | Type of records                   | Number of records |
 | --------------------------------- | ----------------- |
